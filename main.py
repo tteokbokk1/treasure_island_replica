@@ -97,7 +97,7 @@ third_move = input("Which door do you open? Red, Yellow, or Blue?\n")
 
 #if player selects red door they win
 if third_move.lower() == "red":
-    print("You open the red door and walk through it. You enter into an airport lobby with a ticket home.")
+    print("You open the red door and walk through it. You enter into an airport lobby with the treasure and a ticket home.")
     print("Congratulations. You've escaped the island.")
     print("You win!")
     exit()
