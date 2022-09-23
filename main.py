@@ -69,8 +69,8 @@ else:
     print(invalid_input)
     exit()
 
-second_prompt = "You stumble onto a lake. What do you do?"
-second_move = input("Swim across the lake or wait?\n")
+second_prompt = "You stumble onto a lake with an island in the middle. What do you do?"
+second_move = input("Swim across the lake or wait and think?\n")
 
 #if player waits they will notice a raft
 #if player uses raft they pass the lake
@@ -78,7 +78,7 @@ if second_move.lower() == "swim across the lake":
     print("A trout swims towards you and attacks you. You're dead.")
     print("Game Over")
     exit()
-elif second_move.lower() == "wait":
+elif second_move.lower() == "wait and think":
     print("You notice a raft to the left.")
     use_raft = input("Do you use the raft? Yes or No?\n")
     if use_raft.lower() == "yes":
